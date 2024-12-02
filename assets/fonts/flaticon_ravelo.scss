@@ -1,0 +1,149 @@
+$flaticon_tripadvisor-font: "flaticon_tripadvisor";
+
+@font-face {
+    font-family: $flaticon_tripadvisor-font;
+    src: url("./flaticon_tripadvisor.woff2?6a17e9e26dbb5a2360f515e123c8e921") format("woff2"),
+url("./flaticon_tripadvisor.woff?6a17e9e26dbb5a2360f515e123c8e921") format("woff"),
+url("./flaticon_tripadvisor.eot?6a17e9e26dbb5a2360f515e123c8e921#iefix") format("embedded-opentype"),
+url("./flaticon_tripadvisor.ttf?6a17e9e26dbb5a2360f515e123c8e921") format("truetype"),
+url("./flaticon_tripadvisor.svg?6a17e9e26dbb5a2360f515e123c8e921#flaticon_tripadvisor") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_tripadvisor !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_tripadvisor-map: (
+    "flight": "\f101",
+    "tent": "\f102",
+    "cycling": "\f103",
+    "kayak": "\f104",
+    "travel-agency": "\f105",
+    "coffee-cup": "\f106",
+    "bed": "\f107",
+    "double-quotes": "\f108",
+    "save-money": "\f109",
+    "travel-1": "\f10a",
+    "booking": "\f10b",
+    "guidepost": "\f10c",
+    "climbing": "\f10d",
+    "online-chat": "\f10e",
+    "route": "\f10f",
+    "best-price": "\f110",
+    "business-travel": "\f111",
+    "plane": "\f112",
+    "signpost": "\f113",
+    "key": "\f114",
+    "award-symbol": "\f115",
+    "tourism": "\f116",
+    "hiking": "\f117",
+    "fishing": "\f118",
+    "man": "\f119",
+    "kayak-1": "\f11a",
+    "bonfire": "\f11b",
+    "flashlight": "\f11c",
+    "meditation": "\f11d",
+    "placeholder": "\f11e",
+    "quote": "\f11f",
+);
+
+.flaticon-flight:before {
+    content: map-get($flaticon_tripadvisor-map, "flight");
+}
+.flaticon-tent:before {
+    content: map-get($flaticon_tripadvisor-map, "tent");
+}
+.flaticon-cycling:before {
+    content: map-get($flaticon_tripadvisor-map, "cycling");
+}
+.flaticon-kayak:before {
+    content: map-get($flaticon_tripadvisor-map, "kayak");
+}
+.flaticon-travel-agency:before {
+    content: map-get($flaticon_tripadvisor-map, "travel-agency");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon_tripadvisor-map, "coffee-cup");
+}
+.flaticon-bed:before {
+    content: map-get($flaticon_tripadvisor-map, "bed");
+}
+.flaticon-double-quotes:before {
+    content: map-get($flaticon_tripadvisor-map, "double-quotes");
+}
+.flaticon-save-money:before {
+    content: map-get($flaticon_tripadvisor-map, "save-money");
+}
+.flaticon-travel-1:before {
+    content: map-get($flaticon_tripadvisor-map, "travel-1");
+}
+.flaticon-booking:before {
+    content: map-get($flaticon_tripadvisor-map, "booking");
+}
+.flaticon-guidepost:before {
+    content: map-get($flaticon_tripadvisor-map, "guidepost");
+}
+.flaticon-climbing:before {
+    content: map-get($flaticon_tripadvisor-map, "climbing");
+}
+.flaticon-online-chat:before {
+    content: map-get($flaticon_tripadvisor-map, "online-chat");
+}
+.flaticon-route:before {
+    content: map-get($flaticon_tripadvisor-map, "route");
+}
+.flaticon-best-price:before {
+    content: map-get($flaticon_tripadvisor-map, "best-price");
+}
+.flaticon-business-travel:before {
+    content: map-get($flaticon_tripadvisor-map, "business-travel");
+}
+.flaticon-plane:before {
+    content: map-get($flaticon_tripadvisor-map, "plane");
+}
+.flaticon-signpost:before {
+    content: map-get($flaticon_tripadvisor-map, "signpost");
+}
+.flaticon-key:before {
+    content: map-get($flaticon_tripadvisor-map, "key");
+}
+.flaticon-award-symbol:before {
+    content: map-get($flaticon_tripadvisor-map, "award-symbol");
+}
+.flaticon-tourism:before {
+    content: map-get($flaticon_tripadvisor-map, "tourism");
+}
+.flaticon-hiking:before {
+    content: map-get($flaticon_tripadvisor-map, "hiking");
+}
+.flaticon-fishing:before {
+    content: map-get($flaticon_tripadvisor-map, "fishing");
+}
+.flaticon-man:before {
+    content: map-get($flaticon_tripadvisor-map, "man");
+}
+.flaticon-kayak-1:before {
+    content: map-get($flaticon_tripadvisor-map, "kayak-1");
+}
+.flaticon-bonfire:before {
+    content: map-get($flaticon_tripadvisor-map, "bonfire");
+}
+.flaticon-flashlight:before {
+    content: map-get($flaticon_tripadvisor-map, "flashlight");
+}
+.flaticon-meditation:before {
+    content: map-get($flaticon_tripadvisor-map, "meditation");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon_tripadvisor-map, "placeholder");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon_tripadvisor-map, "quote");
+}
